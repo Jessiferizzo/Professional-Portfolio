@@ -4,12 +4,11 @@ My Epic Portfolio
 
 ## Description
 A very simple portfolio starter website to showcase and build my portfolio.
-## 
+## https://jessiferizzo.github.io/Professional-Portfolio/
 
 ### Dependencies
 
-HTML
-CSS
+HTML/CSS
 
 ## Authors
 
