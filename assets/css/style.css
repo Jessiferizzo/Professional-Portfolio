@@ -33,7 +33,6 @@ header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     list-style: none;
   }
 
@@ -55,112 +54,148 @@ header nav ul li a {
 
 /*HERO BANNER STARTS*/
 .hero-image {
+  display:flex;
+  flex-wrap:wrap;
   background-image: url(../images/zentangles.jpeg);
   height: 25%;
-  background-position: center;
+  width:100%;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position:relative;
 }
 
 .hero-text{
-padding: 10px 15px;
+padding: 5px;
 background-color:whitesmoke;
-position: absolute;
-bottom: 10px;
-right: 10px;
 border: 3px solid orange;
+position:absolute;
+bottom:0px;
+right:0px;
 }
 
 /*HERO BANNER ENDS*/
 .picture {
+  display: inline-flex;
+  flex-wrap:wrap;
   margin:20px;
   text-align:center;
+  width:25%;
 }
 .about-me-part{
-  display:inline-flex;
-  flex-direction: row; 
-  align-items: stretch;
+  display: inline-flex;
+  width:100%;
+  margin:15px 15px;
 }
-.about h2 {
-  margin: 20px 20px 20px 100px;
+.about-me-part h2 {
   font-size:50px;
-  text-align: right;
+  text-align: left;
+  width:20%;
   }
   
 .story {
-  margin:20px 10px;
+  margin:15px 15px;
   width:100%;
   font-size:20px;
-  justify-content: center;
+  justify-content:left;
   }
+
 /*ADDING WORK SECTION*/
-.work-section {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  width:100%
-}
 .projects{
-  display: inline-flex;
+  display:flex;
+  flex-wrap:wrap;
   flex-direction: row;
-  flex-wrap: wrap;
 }
-.work-title h2{
-  margin: 20px 20px 20px 100px;
+.work-section{
+  width:80%;
+  height:auto;
+}
+.projects h2{
   font-size:50px;
-  text-align:right;
-}
-.surf-report {
-  margin:30px;
-  background-color: darkorange;
-}
-a.surf-report{
-  font-size:medium;
-  text-align: center;
+  width:20%;
+  margin:15px;
 }
 .led-wall{
-  margin:30px;
-  background-color: darkorange;
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/RainbowGeo.jpg);
+  background-position:center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin:15px;
+}
+
+.small-work-section{
+  display:flex;
+  width:100%;
+}
+.small-work-section a{
+  width:50%;
+  height:150px;
+}
+.another-small-work{
+  display:flex;
+  width:100%;
+  justify-content: space-around;
+}
+.another-small-work a{
+  width:50%;
+  height:150px;
+}
+.surf-report{
+  background-color:goldenrod;
+  height:150px;
+  opacity:.5;
+  margin:15px 15px;
 }
 .pastel-puzzles{
-  margin:30px;
-  background-color: darkorange;
+  background-color:orange;
+  height:150px;
+  opacity:.5;
+  margin:15px 15px;
 }
-.calculator {
-  margin:30px;
-  background-color: darkorange;
+.calculator{
+  background-color:darksalmon;
+  height:150px;
+  opacity:.5;
+  margin:15px 15px;
 }
 .run-buddy{
-  margin:30px;
-  background-color: darkorange;
+  height:150px;
+  background-image: url(../images/hero-bg.jpeg);
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  margin:15px 15px;
 }
-
   /*FOOTER STARTS*/
-
-  .footers {
-    display:inline-flex;
+  
+.footer{
+    display:flex;
     flex-wrap: wrap;
-    flex-direction: row; 
   }
   
-  .footer h2 {
-    font-size:50px;
-    text-align: right;
+.footer h2 {
+    font-size:40px;
+    text-align: left;
+    width:20%;
   }
-  footer nav ul li a {
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 10px 70px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-  }
-
-  footer nav ul{
+.links {
+  width:65%;
+  padding-top:50px;
+}
+footer nav ul{
     list-style: none;
     margin: 0 2px;
     padding: 0;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
   }
+
+ footer nav ul li a {
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+  }
+
+  
