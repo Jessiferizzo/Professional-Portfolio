@@ -148,10 +148,12 @@ right:0px;
   opacity:.5;
   margin:15px 15px;
 }
-.pastel-puzzles{
-  background-color:orange;
+.occasional-movie{
   height:150px;
-  opacity:.5;
+  background-image: url(../images/Screen\ Shot\ 2022-04-13\ at\ 12.02.14\ AM.png);
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
   margin:15px 15px;
 }
 .calculator{
