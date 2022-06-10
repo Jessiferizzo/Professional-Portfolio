@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
@@ -11,156 +10,37 @@ body, html {
     color:black;
   }
 
-/* HEADER / NAV BAR STYLES START */
-header{
-padding: 10px 20px;
-  background-color:orange;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-}
-
-header h1 {
-    font-weight: bold;
-    margin: 0;
-    font-size: 55px;
-    color: black; 
+  a {
+    text-decoration: none !important;
+    font-style: black ;
   }
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
-  }
-
-header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-  }
-  header nav {
-    margin: 7px 0;
-  }
-
-  header a {
-    text-decoration: none;
-    color: white;
-  }
-/*HEADER/NAV ENDS*/
-
 
 /*HERO BANNER STARTS*/
 .hero-image {
   display:flex;
   flex-wrap:wrap;
   background-image: url(../images/zentangles.jpeg);
-  height: 25%;
-  width:100%;
   background-repeat: no-repeat;
   background-size: cover;
   position:relative;
 }
 
-.hero-text{
-padding: 5px;
-background-color:whitesmoke;
-border: 3px solid orange;
-position:absolute;
-bottom:0px;
-right:0px;
-}
-
-/*HERO BANNER ENDS*/
-.picture {
-  display: inline-flex;
-  flex-wrap:wrap;
-  margin:20px;
-  text-align:center;
-  width:25%;
-}
-.about-me-part{
-  display: inline-flex;
-  width:100%;
-  margin:15px 15px;
-}
-.about-me-part h2 {
-  font-size:50px;
-  text-align: left;
-  width:20%;
-  }
-  
-.story {
-  margin:15px 15px;
-  width:100%;
-  font-size:20px;
-  justify-content:left;
-  }
-
 /*ADDING WORK SECTION*/
-.projects{
-  display:flex;
-  flex-wrap:wrap;
-  flex-direction: row;
-}
-.work-section{
-  width:80%;
-  height:auto;
-}
-.projects h2{
-  font-size:50px;
-  width:20%;
-  margin:15px;
-}
+
 .led-wall{
-  border: 1px solid black;
-  width: 100%;
-  height: 200px;
+  height: 150px;
   background-image: url(../images/RainbowGeo.jpg);
   background-position:center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  margin:15px;
 }
 
-.small-work-section{
-  display:flex;
-  width:100%;
-}
-.small-work-section a{
-  width:50%;
-  height:150px;
-}
-.another-small-work{
-  display:flex;
-  width:100%;
-  justify-content: space-around;
-}
-.another-small-work a{
-  width:50%;
-  height:150px;
-}
-.surf-report{
-  background-color:goldenrod;
-  height:150px;
-  opacity:.5;
-  margin:15px 15px;
-}
 .occasional-movie{
   height:150px;
-  background-image: url(../images/Screen\ Shot\ 2022-04-13\ at\ 12.02.14\ AM.png);
+  background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url(../images/Screen\ Shot\ 2022-04-13\ at\ 12.02.14\ AM.png);
   background-position:center;
   background-repeat: no-repeat; 
   background-size: cover; 
-  margin:15px 15px;
-}
-.calculator{
-  background-color:darksalmon;
-  height:150px;
-  opacity:.5;
-  margin:15px 15px;
 }
 .run-buddy{
   height:150px;
@@ -168,36 +48,32 @@ right:0px;
   background-position:center;
   background-repeat: no-repeat; 
   background-size: cover; 
-  margin:15px 15px;
+ 
 }
-  /*FOOTER STARTS*/
-  
-.footer{
-    display:flex;
-    flex-wrap: wrap;
-  }
-  
-.footer h2 {
-    font-size:40px;
-    text-align: left;
-    width:20%;
-  }
-.links {
-  width:65%;
-  padding-top:50px;
+
+.habitual-tracker{
+    height:150px;
+    background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../images/habitual.png);
+    background-position:center;
+    background-repeat: no-repeat; 
+    background-size: cover;
 }
-footer nav ul{
-    list-style: none;
-    margin: 0 2px;
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-  }
 
- footer nav ul li a {
-    padding: 10px;
-    font-weight: lighter;
-    font-size: 20px;
-  }
+.note-taker{
+  height:150px;
+  background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../images/notetaker.png);
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+ 
+}
 
-  
+.work-day{
+  height:150px;
+  background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../images/workday.png);
+  background-position:center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+
+ 
+}
