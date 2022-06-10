@@ -28,7 +28,8 @@ body, html {
 /*ADDING WORK SECTION*/
 
 .led-wall{
-  height: 150px;
+  min-height:300px;
+  min-width:auto;
   background-image: url(../images/RainbowGeo.jpg);
   background-position:center;
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -36,14 +37,14 @@ body, html {
 }
 
 .occasional-movie{
-  height:150px;
+  min-height:300px;
   background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),url(../images/Screen\ Shot\ 2022-04-13\ at\ 12.02.14\ AM.png);
   background-position:center;
   background-repeat: no-repeat; 
   background-size: cover; 
 }
 .run-buddy{
-  height:150px;
+  min-height:300px;
   background-image: url(../images/hero-bg.jpeg);
   background-position:center;
   background-repeat: no-repeat; 
@@ -52,7 +53,7 @@ body, html {
 }
 
 .habitual-tracker{
-    height:150px;
+    min-height:300px;
     background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../images/habitual.png);
     background-position:center;
     background-repeat: no-repeat; 
@@ -60,7 +61,7 @@ body, html {
 }
 
 .note-taker{
-  height:150px;
+  min-height:300px;
   background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../images/notetaker.png);
   background-position:center;
   background-repeat: no-repeat; 
@@ -69,11 +70,9 @@ body, html {
 }
 
 .work-day{
-  height:150px;
+  min-height:300px;
   background-image:linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.1)), url(../images/workday.png);
   background-position:center;
   background-repeat: no-repeat; 
   background-size: cover; 
-
- 
 }
