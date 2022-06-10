@@ -8,7 +8,7 @@ A very simple portfolio starter website to showcase and build my portfolio.
 
 ### Dependencies
 
-HTML/CSS
+HTML/CSS/Javascript/Bulma
 
 ## Authors
 
